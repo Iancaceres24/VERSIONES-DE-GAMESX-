@@ -1,0 +1,312 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+
+}
+/* arriba */
+.arriba{
+    width: 4rem;
+    
+    position: sticky;
+    
+    top: 0;
+    left: 100%;
+}
+.arri{
+    width: 100%;
+}
+#body{
+    background-image: url(/img/fondo1.jpg);
+}
+/* header */
+
+#header{
+    background-color:   #102742;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.logo{
+    height: 5rem;
+}
+
+.gamesx{
+    display: inline;
+    position: relative;
+    left: 50rem;
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    
+}
+
+li{
+    display: inline;
+    
+}
+.nave{
+    
+    color: white;
+    position: relative;
+    left: 20%;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Bruno Ace', cursive;
+}
+.nav{
+    
+    position: relative;
+    left: 60%;
+}
+
+/* main */
+
+#main{
+    margin: 4rem 0rem 4rem 0rem;
+
+    
+    
+    
+}
+.tex{
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    
+    
+}
+.texintro{
+    background-image: url(/img/fondo2.jpg);
+    border-radius: 1rem;
+    font-family: 'Darumadrop One', cursive;
+    margin: 1rem 5rem 1rem 1rem;
+    
+}
+
+.flex{
+    display: flex;
+}
+.imag{
+    margin: 1% 0% 1% 1%;
+    border-radius: 2rem;
+    
+    
+}
+
+/* juegos */
+
+
+.sub{
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    text-align: center;   
+    background-color: #102742;
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+}
+
+.min{
+    
+    padding: 2rem;
+    background-image: url(/img/fondomin1.jpg);
+    
+    
+}
+
+.texmin{
+    font-family: 'Teko', sans-serif;
+    color: greenyellow;
+    -webkit-text-stroke: 0.2rem black ;
+    
+}
+
+.mas{
+    
+    
+    font-size: large;
+    color: white;
+    position: absolute;
+    -webkit-text-stroke: white;
+    background-color:   green;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    font-family: 'Teko', sans-serif;
+}
+.mas:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.drg{
+    
+    padding: 2rem;
+    background-image: url(/img/fondodrg1.jpg);
+    
+    
+}
+.texdrg{
+    font-family: 'Bangers', cursive;
+    color:  red;
+    -webkit-text-stroke: 0.2rem black;
+}
+
+.mas1{
+    font-size: large;
+    color: white;
+    position: absolute;
+    -webkit-text-stroke: white;
+    background-color: orange;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    font-family: 'Bangers', cursive;
+    
+} 
+.mas1:hover{
+    color: black;
+    text-decoration: none;}
+
+.tlof{
+    
+    padding: 2rem;
+    background-image: url(/img/fondotlof1.jpg);
+}
+
+.textlof{ 
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.2rem black;
+
+}
+.mas2{
+    font-size: large;
+    color: white;
+    -webkit-text-stroke: white;
+    background-color: gray;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    font-family: 'Bangers', cursive;
+    
+} 
+.mas2:hover{
+    color: black;
+    text-decoration: none;}
+
+.fifa{
+    
+    padding: 2rem;
+    background-image: url(/img/fondofifa1.jpeg);
+    background-size: 50%;
+}
+.texfifa{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(10, 222, 233);
+    -webkit-text-stroke: 0.2rem black;
+    
+}
+
+.mas3{
+    font-size: large;
+    color: white;
+    background-color: rgb(9, 163, 246);
+    -webkit-text-stroke: white;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    font-family: 'Bangers', cursive;
+    ;
+} 
+.mas3:hover{
+    color: black;
+    text-decoration: none;} 
+
+.tex1{
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    margin: 1rem 5rem 1rem 1rem;
+    padding: 1rem;
+    font-family: 'Darumadrop One', cursive;
+}
+#footer{
+    background-color:   #102742;
+    height: 100%;
+    width: 100%;
+}
+
+.texfoot{
+    font-family: 'Bruno Ace', cursive;
+    font-size: 2rem;
+}
+
+.ins{
+    width: 5rem;
+    margin: 1rem;
+
+    
+}
+.twi{
+    width: 5rem;
+    position: relative;
+    margin: 1rem;
+}
+
+
+/* HTML 1 MINECRAFT */
+
+.titumin{
+    color: greenyellow;
+    text-align: center;
+    font-size: 10rem;
+    background-color: green;
+
+}
+.titudrg{
+    color: orange;
+    text-align: center;
+    font-size: 10rem;
+    background-color: red;
+
+}
+.titutlof{
+    color: gainsboro;
+    text-align: center;
+    font-size: 10rem;
+    background-color:   gray;
+
+}
+
+.titutfifa{
+    color: paleturquoise;
+    text-align: center;
+    font-size: 10rem;
+    background-color:   skyblue;
+
+}
