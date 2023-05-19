@@ -7,21 +7,8 @@ html{
     font-size: 62.5%;
 
 }
-/* arriba */
-.arriba{
-    width: 4rem;
-    
-    position: sticky;
-    
-    top: 0;
-    left: 100%;
-}
-.arri{
-    width: 100%;
-}
-#body{
-    background-image: url(/img/fondo1.jpg);
-}
+
+
 /* header */
 
 #header{
@@ -33,6 +20,7 @@ html{
 
 .logo{
     height: 5rem;
+    position: fixed;
 }
 
 .gamesx{
@@ -45,11 +33,11 @@ html{
     
 }
 
-li{
+.header_div_nav_ul_li{
     display: inline;
     
 }
-.nave{
+.header_div_nav_ul_li_a{
     
     color: white;
     position: relative;
@@ -58,17 +46,17 @@ li{
     font-size: 2rem;
     font-family: 'Bruno Ace', cursive;
 }
-.nav{
+.header_div_nav_ul_li_a--posicion{
     
     position: relative;
     left: 60%;
 }
 
-/* main */
+/* main index */
 
 #main{
-    margin: 4rem 0rem 4rem 0rem;
-
+    
+    background-image: url(/img/fondo1.jpg);
     
     
     
@@ -76,19 +64,17 @@ li{
 .tex{
     color: white;
     font-size: 4rem;
-    position: relative;
-    margin: 1rem;
+    
     padding: 1rem;
-    
-    
-}
-.texintro{
     background-image: url(/img/fondo2.jpg);
     border-radius: 1rem;
-    font-family: 'Darumadrop One', cursive;
-    margin: 1rem 5rem 1rem 1rem;
+    font-family: 'Bruno Ace', cursive;
+    
+    
     
 }
+
+    
 
 .flex{
     display: flex;
@@ -100,10 +86,12 @@ li{
     
 }
 
-/* juegos */
+/* juegos index */
 
 
-.sub{
+    
+
+.sub_h2{
     height: 100%;
     width: 100%;
     padding: 5rem;
@@ -114,7 +102,7 @@ li{
     font-size: 3rem;
 }
 
-.min{
+.index_min_fondo{
     
     padding: 2rem;
     background-image: url(/img/fondomin1.jpg);
@@ -122,14 +110,14 @@ li{
     
 }
 
-.texmin{
+.tex_min{
     font-family: 'Teko', sans-serif;
     color: greenyellow;
     -webkit-text-stroke: 0.2rem black ;
-    
+    background-image: none;
 }
 
-.mas{
+.ver_mas_min{
     
     
     font-size: large;
@@ -146,25 +134,26 @@ li{
     left: 1rem;
     font-family: 'Teko', sans-serif;
 }
-.mas:hover{
+.ver_mas_min:hover{
     color: black;
     text-decoration: none;
 }
 
-.drg{
+.index_drg_fondo{
     
     padding: 2rem;
     background-image: url(/img/fondodrg1.jpg);
     
     
 }
-.texdrg{
+.tex_drg{
     font-family: 'Bangers', cursive;
     color:  red;
     -webkit-text-stroke: 0.2rem black;
+    background-image: none;
 }
 
-.mas1{
+.ver_mas_drg{
     font-size: large;
     color: white;
     position: absolute;
@@ -180,23 +169,24 @@ li{
     font-family: 'Bangers', cursive;
     
 } 
-.mas1:hover{
+.ver_mas_drg:hover{
     color: black;
     text-decoration: none;}
 
-.tlof{
+.index_tlof_fondo{
     
     padding: 2rem;
     background-image: url(/img/fondotlof1.jpg);
 }
 
-.textlof{ 
+.text_lof{ 
     font-family: 'Oswald', sans-serif;
     color: white;
     -webkit-text-stroke: 0.2rem black;
+    background-image: none;
 
 }
-.mas2{
+.ver_mas_tlof{
     font-size: large;
     color: white;
     -webkit-text-stroke: white;
@@ -211,24 +201,25 @@ li{
     font-family: 'Bangers', cursive;
     
 } 
-.mas2:hover{
+.ver_mas_tlof:hover{
     color: black;
     text-decoration: none;}
 
-.fifa{
+.index_fifa_fondo{
     
     padding: 2rem;
     background-image: url(/img/fondofifa1.jpeg);
     background-size: 50%;
 }
-.texfifa{
+.tex_fifa{
     font-family: 'Bebas Neue', cursive;
     color: rgb(10, 222, 233);
     -webkit-text-stroke: 0.2rem black;
+    background-image: none;
     
 }
 
-.mas3{
+.ver_mas_fifa{
     font-size: large;
     color: white;
     background-color: rgb(9, 163, 246);
@@ -243,17 +234,13 @@ li{
     font-family: 'Bangers', cursive;
     ;
 } 
-.mas3:hover{
+.ver_mas_fifa:hover{
     color: black;
     text-decoration: none;} 
 
-.tex1{
-    color: white;
-    font-size: 4rem;
-    position: relative;
-    margin: 1rem 5rem 1rem 1rem;
-    padding: 1rem;
-    font-family: 'Darumadrop One', cursive;
+
+#final{
+    background-image: url(/img/fondo1.jpg);
 }
 #footer{
     background-color:   #102742;
@@ -261,18 +248,19 @@ li{
     width: 100%;
 }
 
-.texfoot{
+.tex_foot{
     font-family: 'Bruno Ace', cursive;
     font-size: 2rem;
+    background-image: none;
 }
 
-.ins{
+.instagram{
     width: 5rem;
     margin: 1rem;
 
     
 }
-.twi{
+.twitter{
     width: 5rem;
     position: relative;
     margin: 1rem;
@@ -288,6 +276,8 @@ li{
     background-color: green;
 
 }
+
+/* HTML 2 DRAGON BALL BUDOKAI TENKACHI 3 */
 .titudrg{
     color: orange;
     text-align: center;
@@ -295,6 +285,7 @@ li{
     background-color: red;
 
 }
+/* HTML 3 THE LAST OF US */
 .titutlof{
     color: gainsboro;
     text-align: center;
@@ -302,7 +293,7 @@ li{
     background-color:   gray;
 
 }
-
+/* HTML 4 FIFA */
 .titutfifa{
     color: paleturquoise;
     text-align: center;
