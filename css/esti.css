@@ -8,50 +8,97 @@ html{
 
 }
 
+/* global */
+.tex{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Bruno Ace', cursive;
+    
+    }
+.imag{
+        background-size: 100%;
+        border-radius: 2rem;
+        width: 100%;
+        height: 100%;
+        margin: 1rem;
+        object-fit: cover;
+    }
 
+.vid{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
 /* header */
 
 #header{
     background-color:   #102742;
-    height: 100%;
+    height: auto;
     width: 100%;
+    padding: 1rem;
     
 }
+
 
 .logo{
     height: 5rem;
     position: fixed;
+    top: 1rem;
 }
 
 .gamesx{
-    display: inline;
-    position: relative;
-    left: 50rem;
+    
+    text-decoration: none;
     color: white;
     font-family: 'Bruno Ace', cursive;
     font-size: 3rem;
     
 }
 
-.header_div_nav_ul_li{
-    display: inline;
-    
-}
-.header_div_nav_ul_li_a{
-    
+
+nav .gamesx:hover{
     color: white;
-    position: relative;
-    left: 20%;
+    text-decoration: none;
+}
+
+nav .gamesx:visited{
+    color: white;
+}
+
+.header_div_nav_ul_li_a_h1{
+    text-align: center;
+}
+
+
+.header_div_nav_ul_li_a{
+
+    color: white ;
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Bruno Ace', cursive;
 }
-.header_div_nav_ul_li_a--posicion{
-    
-    position: relative;
-    left: 60%;
+
+.header_div_nav_ul_li_a_p{
+    text-align: end;
 }
 
+
+@media (max-width: 900px){
+    .desktop{
+        display: none;
+    }
+}
+@media (min-width: 900px){
+    .mobile_tablet{
+        display:none}
+    }
+    
+.button_header{
+    background-color: white;
+    
+    
+}
 /* main index */
 
 #main{
@@ -61,35 +108,21 @@ html{
     
     
 }
-.tex{
-    color: white;
-    font-size: 4rem;
+
+
     
-    padding: 1rem;
-    background-image: url(/img/fondo2.jpg);
+.tex_main{
+    background-color: rgba(37, 7, 100, 0.5);
     border-radius: 1rem;
-    font-family: 'Bruno Ace', cursive;
-    
-    
-    
+    -webkit-text-stroke: 0.2rem black ;
 }
-
     
 
-.flex{
-    display: flex;
-}
-.imag{
-    margin: 1% 0% 1% 1%;
-    border-radius: 2rem;
-    
-    
-}
+
 
 /* juegos index */
 
 
-    
 
 .sub_h2{
     height: 100%;
@@ -100,139 +133,342 @@ html{
     color: white;
     font-family: 'Bruno Ace', cursive;
     font-size: 3rem;
+    margin: 0%;
+}
+.acord_juegos{
+    
+    background-color: transparent;
+    border: none;
+    height: 10rem;
+    width: 100%;
+    
+}
+
+.pad_0{ 
+    padding: 0%;
+    
 }
 
 .index_min_fondo{
     
     padding: 2rem;
-    background-image: url(/img/fondomin1.jpg);
+    background-image: url(../img/minecraft.jpg);
+    background-position: top;
+    background-size: 100%;
     
     
 }
+.index_min_fondo_mobile{
+    
+    background-image: url(../img/minecraft.jpg);
+    background-position: top;
+    background-size: 100%
+}
+
+
 
 .tex_min{
+    padding: 10rem;
+    
+    height: auto;
     font-family: 'Teko', sans-serif;
+    font-size: 2rem;
     color: greenyellow;
-    -webkit-text-stroke: 0.2rem black ;
-    background-image: none;
+    background-color: rgba(30, 93, 43, 0.5);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    -webkit-text-stroke: 0.1rem black;
+}
+
+.tex_min_mobile{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 3em;
+    color: rgba(240, 240, 240, 0.918);
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgb(18, 17, 17);
+    background-color: rgba(172, 255, 47, 0.09);
+    
 }
 
 .ver_mas_min{
-    
-    
-    font-size: large;
+    margin: 2rem;
+    font-size: x-large;
     color: white;
-    position: absolute;
     -webkit-text-stroke: white;
-    background-color:   green;
+    background-color:   rgb(12, 85, 12);
     text-decoration: none;
-    height: 5rem;
-    width: 5rem;
-    padding: 1rem 5rem;
-    border-radius: 1rem;
-    position: relative;
-    left: 1rem;
-    font-family: 'Teko', sans-serif;
+    height: 25%;
+    width: 25%;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    font-family:'Teko', sans-serif;
+    text-align: center;
+    
+    
 }
+
 .ver_mas_min:hover{
     color: black;
     text-decoration: none;
 }
 
+.ver_mas_min_mobile{
+    margin: 2rem;
+    font-size: x-large;
+    color: white;
+    -webkit-text-stroke: white;
+    background-color:   rgb(12, 85, 12);
+    text-decoration: none;
+    height: 25%;
+    width: 25%;
+    padding: 0rem 3rem;
+    border-radius: 2rem;
+    font-family:'Teko', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+
+
+
+
+
+
 .index_drg_fondo{
     
+
+    background-image: url(../img/drgbt3.jpg);
     padding: 2rem;
-    background-image: url(/img/fondodrg1.jpg);
+    background-position: bottom;
+    background-size: 100%;
     
+}
+.index_drg_fondo_mobile{
+    background-image: url(/img/drgbt3_mobile.png);
+    background-position: top;
+    background-size: 100%;
     
 }
 .tex_drg{
     font-family: 'Bangers', cursive;
     color:  red;
     -webkit-text-stroke: 0.2rem black;
-    background-image: none;
+    padding: 10rem;
+    
+    height: auto;
+    font-size: 2rem;
+    background-color: rgba(232, 184, 11, 0.696);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.tex_drg_mobile{
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    color: rgb(250, 183, 58);
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .ver_mas_drg{
-    font-size: large;
     color: white;
-    position: absolute;
-    -webkit-text-stroke: white;
     background-color: orange;
     text-decoration: none;
-    height: 5rem;
-    width: 5rem;
-    padding: 1rem 5rem;
-    border-radius: 1rem;
-    position: relative;
-    left: 1rem;
     font-family: 'Bangers', cursive;
+
+    margin: 2rem;
+    font-size: x-large;
+    color: white;
+    -webkit-text-stroke: white;
+    height: 25%;
+    width: 25%;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    font-family: 'Bangers', cursive;
+    text-align: center;
     
 } 
 .ver_mas_drg:hover{
     color: black;
     text-decoration: none;}
 
-.index_tlof_fondo{
+.ver_mas_drg_mobile{
+        color: white;
+        background-color: orange;
+        text-decoration: none;
+        font-family: 'Bangers', cursive;
     
+        margin: 2rem;
+        font-size: x-large;
+        color: white;
+        -webkit-text-stroke: white;
+        height: 25%;
+        width: 25%;
+        padding: 0rem 3rem;
+        border-radius: 2rem;
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        white-space: nowrap;
+        
+    }     
+
+.index_tlof_fondo{
     padding: 2rem;
-    background-image: url(/img/fondotlof1.jpg);
+    
+    
+    background-position: top;
+    background-size: 100%;
+    background-image: url(/img/tlof.jpg);
 }
 
-.text_lof{ 
+.index_tlof_fondo_mobile{
+    background-image: url(/img/tlof_mobile.png);
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.text_tlof{ 
     font-family: 'Oswald', sans-serif;
     color: white;
     -webkit-text-stroke: 0.2rem black;
-    background-image: none;
+    padding: 10rem;
+    
+    height: auto;
 
+    background-color: rgba(139, 140, 141, 0.451);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.text_tlof_mobile{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    color: rgba(250, 249, 247, 0.987);
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .ver_mas_tlof{
-    font-size: large;
+    
     color: white;
     -webkit-text-stroke: white;
     background-color: gray;
     text-decoration: none;
-    height: 5rem;
-    width: 5rem;
-    padding: 1rem 5rem;
-    border-radius: 1rem;
-    position: relative;
-    left: 1rem;
-    font-family: 'Bangers', cursive;
+    
+    margin: 1rem;
+    
+    font-size: x-large;
+    -webkit-text-stroke: white;
+    height: 25%;
+    width: 25%;
+    padding: 1rem 6rem;
+    
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
     
 } 
+
 .ver_mas_tlof:hover{
     color: black;
     text-decoration: none;}
 
+.ver_mas_tlof_mobile{
+    
+        color: white;
+        -webkit-text-stroke: white;
+        background-color: gray;
+        text-decoration: none;
+        
+        margin: 1rem;
+        
+        font-size: x-large;
+        -webkit-text-stroke: white;
+        height: 25%;
+        width: 25%;
+        padding: 0rem 3rem;
+        
+        border-radius: 2rem;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        white-space: nowrap;
+        
+    } 
 .index_fifa_fondo{
     
     padding: 2rem;
-    background-image: url(/img/fondofifa1.jpeg);
-    background-size: 50%;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(../img/fifa.jpg);
+    
+}
+.index_fifa_fondo_mobile{
+    
+    background-size: 100%;
+    background-image: url(../img/fifa.jpg);
+    background-position: center;
 }
 .tex_fifa{
     font-family: 'Bebas Neue', cursive;
     color: rgb(10, 222, 233);
     -webkit-text-stroke: 0.2rem black;
-    background-image: none;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    padding: 10rem;
+    background-color: rgba(228, 228, 228, 0.359);
+    
+    
     
 }
+.text_fifa_mobile{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    color: rgba(250, 249, 247, 0.987);
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 .ver_mas_fifa{
-    font-size: large;
     color: white;
     background-color: rgb(9, 163, 246);
     -webkit-text-stroke: white;
     text-decoration: none;
-    height: 5rem;
-    width: 5rem;
-    padding: 1rem 5rem;
-    border-radius: 1rem;
-    position: relative;
-    left: 1rem;
-    font-family: 'Bangers', cursive;
-    ;
+    margin: 2rem;
+    font-size: x-large;
+    height: 25%;
+    width: 25%;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+} 
+.ver_mas_fifa_mobile{
+    color: white;
+    background-color: rgb(9, 163, 246);
+    -webkit-text-stroke: white;
+    text-decoration: none;
+    margin: 2rem;
+    font-size: x-large;
+    height: 25%;
+    width: 25%;
+    padding: 0rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    white-space: nowrap;
 } 
 .ver_mas_fifa:hover{
     color: black;
@@ -240,43 +476,128 @@ html{
 
 
 #final{
+    display: flex;
+    flex-direction: column;
     background-image: url(/img/fondo1.jpg);
 }
+
 #footer{
     background-color:   #102742;
     height: 100%;
     width: 100%;
 }
 
-.tex_foot{
-    font-family: 'Bruno Ace', cursive;
-    font-size: 2rem;
-    background-image: none;
+.tex_footer_mobile{
+    font-size: x-large;
+    
 }
 
+
 .instagram{
-    width: 5rem;
+    height: auto;
+    width: 100%;
     margin: 1rem;
 
     
 }
+.instagram_mobile{
+    height: 5em;
+    width: 5em;
+    margin: 1rem;}
+
 .twitter{
-    width: 5rem;
-    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+}
+.twitter_mobile{
+
+    height: 5em;
+    width: 5em;
     margin: 1rem;
 }
 
+#footer div{
+    margin: 0%;}
 
 /* HTML 1 MINECRAFT */
 
-.titumin{
-    color: greenyellow;
-    text-align: center;
-    font-size: 10rem;
+/* MAIN_MINECRAFT */
+
+#main_min{
+    
+    background-image: url(../img/minecraft_fondo_main.jpg);
+    background-size: 205%;
+    background-position: center;
+    object-fit: cover;
+    
+}
+
+.img_main_1{
+    padding: 0%;
+    background-size: 100%;
+}
+
+.text_min_main{
+    font-family: 'Teko', sans-serif;
+    
+    -webkit-text-stroke: 0.1rem black;
+}
+
+.text_min_main_mobile{
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+    -webkit-text-stroke: 0.1rem rgb(136, 207, 125);
+    background-color: rgba(55, 60, 62, 0.458);
+}
+
+
+#surv_crea_min{
     background-color: green;
+    
+}
+
+#surv_crea_min .imag{
+    position: relative;
+    
+    padding: 0%;
+    margin:0%;
+    border-radius: 1rem;
+}
+
+#surv_min{
+    background-image: url(../img/minecraft_fondo_surv.jpg);
+    background-image: 100%;
 
 }
 
+#crea_min{
+    background-image: url(../img/minecraft_fondo_crea.png);
+    background-image: 100%;
+}
+
+#mult_serv_min{
+    background-color: green;
+    
+}
+
+#mult_serv_min .tex{
+    color: greenyellow;
+}
+#mult_min{
+    background-image: url(../img/minecraft_fondo_mult.png);
+    background-size: 100%;
+
+}
+#serv_min{
+    background-image: url(../img/minecraft_fondo_serv.jpg);
+    background-size: 100%;
+}
+#final_min{
+    background-image: url(../img/minecraft_fondo_final.jpg);
+    background-size: 100%;
+    background-position: end;
+}
 /* HTML 2 DRAGON BALL BUDOKAI TENKACHI 3 */
 .titudrg{
     color: orange;
@@ -301,3 +622,5 @@ html{
     background-color:   skyblue;
 
 }
+
+

@@ -11,24 +11,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    
+    <!-- Bootrsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="../css/esti.css">
 </head>
 <body>
     <header id="header">
-        <div>
-            <a href="#header"><img class="logo" src="../img/logo.png" alt="logo de un jostink "></a>  
-            <a href="../index.html"><h1 class="gamesx">GAMESX</h1></a>  
-
-            <nav>
-                <ul>
-                    <li class="header_div_nav_ul_li"><a href="../index.html#juegos" class="header_div_nav_ul_li_a">JUEGOS</a></li>
-                    <li class="header_div_nav_ul_li"><a href="#footer" class="header_div_nav_ul_li_a header_div_nav_ul_li_a--posicion">REDES</a></li>
-                </ul>
-                
-
-            </nav>
-        </div>    
+        <div class="desktop_header">
+            <div class="col-12"><a href="#header"><img class="logo" src="../img/logo.png" alt="logo de un jostink "></a></div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12" ><a class="gamesx" href="../index.html"><h1 class="header_div_nav_ul_li_a_h1">GAMESX</h1></a></div>
+                    <div class="col-3 "><a class="header_div_nav_ul_li_a" href="../index.html#juegos">JUEGOS</a></div>
+                    <div class="col-3 "><a class="header_div_nav_ul_li_a" href="#footer"><p class="header_div_nav_ul_li_a_p">REDES</p></a></div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg g-custom-color mobile_tablet_header" >
+            <div class="container-fluid justify-content-space-between align-items-center">
+                <div class="col-1"><a href="#header"><img class="logo" src="../img/logo.png" alt="logo de un jostink "></a></div>
+                <a class="navbar-brand gamesx" href="../index.html">GAMESX</a>
+                <button class="navbar-toggler button_header" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                    
+                <a class="nav-link header_div_nav_ul_li_a" href="../index.html#juegos" ><p class="header_div_nav_ul_li_a_p">JUEGOS</p></a>
+                <a class="nav-link header_div_nav_ul_li_a" href="#footer"><p class="header_div_nav_ul_li_a_p">REDES</p></a>
+                    
+            </div>
+            </div>
+            </div>
+        </nav>
     </header>
     <main>
         <h2 class="titudrg">DRAGON BALL BUDOKAI TENKAICHI 3</h2>
@@ -96,10 +113,12 @@
         <H3>PARA MAS INFORMACION SOBRE EL JUEGO VISITA: <a href="https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z:_Budokai_Tenkaichi_3" target="_blank">DRAGON BALL WIKIHISPANO</a></H3>
     </section>
     <footer id="footer">
-        <div class="flex"></divclass> <h2 class="tex tex_foot">Conéctate con nosotros, Síguenos en redes sociales:</h2>
+        <div class="flex"></divclass> <h2 class="tex ">Conéctate con nosotros, Síguenos en redes sociales:</h2>
             <a href="https://www.instagram.com/caceresian/" target="_blank" ><img src="../img/instagram.png" alt="logo de instagram"class="instagram"></a>
             <a href="https://twitter.com/Iancaceres41" target="_blank" ><img src="../img/twitter.png" alt="logo de twitter" class="twitter"></a></div>
         
     </footer>
+    <!-- Bootrsrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
