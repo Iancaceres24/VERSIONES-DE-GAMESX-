@@ -246,7 +246,7 @@ nav .gamesx:visited{
     
 }
 .index_drg_fondo_mobile{
-    background-image: url(/img/drgbt3_mobile.png);
+    background-image: url(../img/drgbt3_mobile.png);
     background-position: top;
     background-size: 100%;
     
@@ -324,11 +324,11 @@ nav .gamesx:visited{
     
     background-position: top;
     background-size: 100%;
-    background-image: url(/img/tlof.jpg);
+    background-image: url(../img/tlof.jpg);
 }
 
 .index_tlof_fondo_mobile{
-    background-image: url(/img/tlof_mobile.png);
+    background-image: url(../img/tlof_mobile.png);
     background-position: center;
     background-size: 100%;
     
@@ -478,7 +478,7 @@ nav .gamesx:visited{
 #final{
     display: flex;
     flex-direction: column;
-    background-image: url(/img/fondo1.jpg);
+    background-image: url(../img/fondo1.jpg);
 }
 
 #footer{
