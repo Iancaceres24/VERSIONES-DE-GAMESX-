@@ -13,7 +13,8 @@ html{
     color: white;
     font-size: 3rem;
     font-family: 'Bruno Ace', cursive;
-    
+   
+    word-break: break-all;
     }
 .imag{
         background-size: 100%;
