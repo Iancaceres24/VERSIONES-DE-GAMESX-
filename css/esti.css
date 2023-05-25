@@ -13,8 +13,8 @@ html{
     color: white;
     font-size: 3rem;
     font-family: 'Bruno Ace', cursive;
-   
-    word-break: break-all;
+    
+    
     }
 .imag{
         background-size: 100%;
@@ -31,6 +31,8 @@ html{
     
     object-fit: cover;
 }
+
+
 /* header */
 
 #header{
@@ -542,9 +544,11 @@ nav .gamesx:visited{
 
 .text_min_main{
     font-family: 'Teko', sans-serif;
-    
+    background-size: 100%;
     -webkit-text-stroke: 0.1rem black;
 }
+
+
 
 .text_min_main_mobile{
     font-family: 'Teko', sans-serif;
