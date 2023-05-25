@@ -599,21 +599,74 @@ nav .gamesx:visited{
     background-position: end;
 }
 /* HTML 2 DRAGON BALL BUDOKAI TENKACHI 3 */
+
+
 .titudrg{
     color: orange;
     text-align: center;
     font-size: 10rem;
     background-color: red;
+    font-family: 'Bangers', cursive;
 
 }
+
+.sub_titu_drg{
+    color: red;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Bangers', cursive;
+}
+
+#main_drg{
+    background-color: orange;
+    
+}
+
+.html2_text_drg{
+    color: red;
+    font-family: 'Bangers', cursive;
+    font-size: large;
+
+}
+
+#per_drg{
+    background-color: orange;
+}
+
+#final_drg{
+    background-color: orange;
+}
+
 /* HTML 3 THE LAST OF US */
 .titutlof{
     color: gainsboro;
     text-align: center;
     font-size: 10rem;
     background-color:   gray;
-
 }
+
+#main_tlof{
+    background-color: gainsboro;
+}
+
+.html3_text_tlof{
+    color: gray;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub_titu_tlof{
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#pro_tlof{
+    background-color: gainsboro;
+}
+
+
 /* HTML 4 FIFA */
 .titutfifa{
     color: paleturquoise;
@@ -623,4 +676,25 @@ nav .gamesx:visited{
 
 }
 
+#main_fifa{
+    background-color: antiquewhite;
+}
+#mod_fifa{
+    background-color: antiquewhite;
 
+}
+#final_fifa{
+    background-color: antiquewhite;
+}
+.sub_titu_fifa{
+    color: blueviolet;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.html4_text_fifa{
+    color: blue;
+    font-size: large;
+    font-family: 'Bebas Neue', cursive;
+}
