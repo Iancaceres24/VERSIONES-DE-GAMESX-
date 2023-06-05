@@ -1,0 +1,96 @@
+.tex_header, .Juegos_Redes, .gamesx {
+  text-decoration: none;
+  color: white;
+  font-family: "Bruno Ace", cursive;
+}
+.tex_header:hover, .Juegos_Redes:hover, .gamesx:hover {
+  color: blue;
+}
+
+#header {
+  background-color: #102742;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+}
+
+.logo {
+  height: 5rem;
+  position: fixed;
+  top: 1rem;
+}
+
+.gamesx {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.Juegos_Redes {
+  font-size: 2rem;
+  text-align: end;
+}
+
+@media (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .mobile_tablet {
+    display: none;
+  }
+}
+.button_header {
+  background-color: white;
+}
+
+#footer {
+  background-color: #102742;
+  height: 100%;
+  width: 100%;
+}
+#footer div {
+  margin: 0;
+}
+
+.tex_footer_mobile {
+  color: greenyellow;
+}
+
+.Redes_Footer {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.tex {
+  color: white;
+  font-size: 3rem;
+  font-family: "Bruno Ace", cursive;
+}
+
+.imag {
+  background-size: 100%;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  object-fit: cover;
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=estilos.css.map */
