@@ -1,0 +1,361 @@
+// GLOBAL
+
+.tex_index{
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    @media (max-width: 768px){
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+
+
+.imag_index{
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 2rem;
+   
+}
+
+.index_fondo{
+    padding: 2rem;
+    background-size: 100%;
+}
+
+
+.ver_mas{
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke: white;
+    text-decoration: none;
+    height: 100%;
+    width: 30%;
+    padding: 2rem 0rem;
+    border-radius: 2rem;
+    font-family:'Bruno Ace', cursive;
+    text-align: center; 
+    @media(max-width: 992px){
+        font-size: 2rem;
+        height: 100%;
+        width: 100%;
+        
+        }
+}
+
+.display_lg{
+    @media (min-width: 992px){
+    display: none;}
+    }
+
+.subtitulos_index{
+        @extend .tex_index;
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        text-align: center;   
+        background-color: #102742;
+        font-size: 4rem;
+        margin: 0rem;
+        @media(max-width: 768px){
+            font-size: 3rem;
+            
+        }
+        @media(max-width: 576px)
+        {   font-size: 2.5rem;}
+    }    
+
+// main
+
+#main_index{
+    
+    background-image: url(../img/fondo1.jpg);
+}
+@media (max-width: 992px){
+    .reverse_main{
+        flex-direction: column-reverse;
+    }
+}
+
+
+// JUEGOS
+
+
+.button_juegos{
+    
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: 0rem}
+
+// minecraft
+.index_min_fondo_index{
+    @extend .index_fondo;
+    background-image: url(../img/minecraft_index.jpg);
+    background-position: top;    
+}
+
+.tex_min_index{
+    @extend .tex_index;
+    padding: 10rem;
+    height: auto;
+    color: greenyellow;
+    background-color: rgba(30, 93, 43, 0.5);
+    border-radius: 1rem;
+    text-align: center;
+    -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+    @media(max-width: 768px){
+        font-size: 2.5rem;
+        padding: 6rem;
+        -webkit-text-stroke: 0rem;
+    }
+    @media(max-width: 576px)
+    {   font-size: 2rem;
+        padding: 1rem;
+
+    }
+    
+}
+
+.ver_mas_min_index{
+    @extend .ver_mas;
+    background-color:   rgb(12, 85, 12);
+    &:hover{color: greenyellow;}
+    
+}
+
+
+.tex_index_toca_mas_min_index{
+    @extend .tex_index;
+    color: black;
+    background-color: rgba(36, 128, 54, 0.233);
+     line-height: 5;
+    text-align: center;
+   font-size: 4rem;
+    font-weight: bold; 
+    &:active{
+        background-color: transparent;
+    } 
+    @media(max-width: 768px){
+    font-size: 3rem;
+    line-height: 6;}
+    @media (max-width: 576px){
+            font-size: 2rem;
+            line-height: 8;
+            
+    }
+    
+    }
+    @media (min-width: 992px) {
+        #collapseOne {
+          display: block;
+        }
+      }
+    
+    // dragon ball budokai tenkachi 3
+    
+    .index_drg_fondo_index{
+        @extend .index_fondo;
+        background-image: url(../img/drgbt3_index.jpg);
+        background-position: bottom;   
+    }
+    
+    .tex_drg_index{
+        @extend .tex_index;
+        padding: 10rem;
+        height: auto;
+        color: yellow;
+        background-color: rgba(232, 184, 11, 0.696);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+    
+        }
+        
+    }
+    
+    .ver_mas_drg_index{
+        
+        @extend .ver_mas;
+        background-color: orange;
+    &:hover{color: yellow;}
+    } 
+    
+.tex_index_toca_mas_drg_index{
+    
+    @extend .tex_index;
+        color: black;
+        background-color: rgba(232, 184, 11, 0.308);
+         line-height: 5;
+        text-align: center;
+       font-size: 4rem;
+        font-weight: bold; 
+        &:active{
+            background-color: transparent;
+        } 
+        @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                line-height: 8;
+                
+        }
+         }
+        @media (min-width: 992px) {
+            #collapseTwo {
+              display: block;
+            }
+          
+
+}
+
+// the last of us
+
+.index_tlof_fondo_index{
+    @extend .index_fondo;
+    background-image: url(../img/tlof_index.jpg);
+    background-position: top;      
+}
+
+
+
+.tex_tlof_index{ 
+    @extend .tex_index;
+        padding: 10rem;
+        height: auto;
+        background-color: rgba(139, 140, 141, 0.451);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+    
+        }
+    }
+
+.ver_mas_tlof_index{
+    @extend .ver_mas;
+    background-color: gray;
+    &:hover{color: black;}
+}
+
+.tex_index_toca_mas_tlof_index{
+    
+    @extend .tex_index;
+        color: black;
+        
+        background-color: rgba(139, 140, 141, 0.267);
+         line-height: 5;
+        text-align: center;
+       font-size: 4rem;
+        font-weight: bold; 
+        &:active{
+            background-color: transparent;
+        } 
+        @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                line-height: 8;
+        }
+         }
+        @media (min-width: 992px) {
+            #collapseThree {
+              display: block;
+            }
+          }
+
+          
+// fifa
+
+.index_fifa_fondo_index{
+    
+    @extend .index_fondo;
+    background-position: center;
+    background-image: url(../img/fifa_index.jpg);
+            
+        }
+        
+    
+.tex_fifa_index{
+
+    @extend .tex_index;
+        color: rgb(10, 222, 233);
+        padding: 10rem;
+        height: auto;
+        background-color: rgba(53, 103, 136, 0.452);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+    
+        }
+        }
+            
+.ver_mas_fifa_index{
+    @extend .ver_mas;
+    background-color: rgb(9, 163, 246);
+    &:hover{ color: rgb(10, 222, 233);}
+    } 
+
+.tex_index_toca_mas_fifa_index{
+    
+    @extend .tex_index;
+        color: black;
+        background-color: rgba(53, 103, 136, 0.233);
+        line-height: 5;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold; 
+        
+        &:active{
+            background-color: transparent;
+            } 
+       @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                 line-height: 8;
+            }
+             }
+        @media (min-width: 992px) {
+            #collapseFour {
+            display: block;
+                }
+            }       
+        
+// FINAL
+
+#final{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/fondo1.jpg);
+    
+}

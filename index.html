@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog gamer sobre 4 grandes juegos, recibiras un analisi, reseña y los puntos mas importantes de cada juego, segun mi opinion">
+    <meta name="keywords" content="Juegos, Opinion, Resaña, Analisis">
     <title>GAMESX</title>
     
 
@@ -13,62 +15,38 @@
     <!-- googlefonts -->
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
     
     <!-- bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- css -->
+   
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body id="body">
     <!-- header -->
     
     <header id="header">
-        <div class="desktop">
         <div><a href="#header"><img class="logo" src="./img/logo.png" alt="logo de un jostink "></a></div>
         <div class="container-fluid">
             
-            <div class="row justify-content-center">
-                <div class="col-12" ><a class="gamesx" href="./index.html"><h1 class="gamesx">GAMESX</h1></a></div>
-                <div class="col-3 "><a class="Juegos_Redes" href="#juegos">JUEGOS</a></div>
-                <div class="col-3 "><a class="Juegos_Redes" href="#footer"><p>REDES</p></a></div>
+            <div class="row justify-content-center" >
+                <div class="col-lg-12 col-sm-10 col-8" ><a class="gamesx" href="./index.html"><h1 class="gamesx">GAMESX</h1></a></div>
+                <nav  class="col-lg-12 col-sm-2 col-4  navbar navbar-expand-lg g-custom-color nav_head d-flex justify-content-end">
+                    <div><button class="navbar-toggler button_header"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" ></span>
+                    </button></div>
+                    <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+                    <ul class="row justify-content-center col-12 navbar-nav" >
+                        <li class="col-lg-3 col-12 "><h2><a class=" Juegos_Redes" href="#juegos">JUEGOS</a></h2></li>
+                        <li class="col-lg-3 col-12 "><h2 class="Redes"><a class="Juegos_Redes " href="#footer">REDES</a></h2></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         </div>
-
-        
-        
-        <nav class="navbar navbar-expand-lg g-custom-color mobile_tablet" >
-            <div class="container-fluid justify-content-space-between align-items-center">
-                <div class="col-1"><a href="#header"><img class="logo" src="./img/logo.png" alt="logo de un jostink "></a></div>
-                <a class="navbar-brand gamesx" href="./index.html"><h1 class="gamesx">GAMESX</h1></a>
-                <button class="navbar-toggler button_header" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                    
-                <a class="nav-link Juegos_Redes" href="#juegos"><p>JUEGOS</p></a>
-                <a class="nav-link Juegos_Redes" href="#footer"><p>REDES</p></a>
-                    
-            </div>
-            </div>
-            </div>
-        </nav>
     
     </header>
     
@@ -77,23 +55,14 @@
 
     <!-- main -->
 
-    <main id="main">
-        <div class="container-fluid desktop">
-            <div class="row align-items-center">
-                <div class="col"><img src="./img/pacmna.gif" alt="una imagen de un juego" class="imag"></div>
-                <p class="col tex tex_main" >Te damos la bienvenida a nuestra página dedicada a los juegos, uno de los mercados que más ha crecido últimamente. 
-                                             Aquí te presentaremos cinco juegos que han dejado una huella tanto en mí como en un amplio grupo de personas. </p>
+    <main id="main_index">
+        <div class="container-fluid">
+            <div class="row reverse_main  align-items-center">
+                <span class="col-lg-5 col-md-6 col-sm-7 col-7"><img src="./img/pacmna.gif" alt="Pacman comiendo bolitas" class="imag_index"></span>
+                <span class="col-lg-6 col-md-8 col-sm-12"><p class="tex_index">Te damos la bienvenida a nuestra página dedicada a los juegos, uno de los mercados que más ha crecido últimamente. 
+                    Aquí te presentaremos cinco juegos que han dejado una huella tanto en mí como en un amplio grupo de personas.</p></span>
             </div>
         </div>
-
-        <div class="container-fluid mobile_tablet">
-            <div class="row align-items-center justify-content-center">
-                <p class="col-12 tex tex_main" >Te damos la bienvenida a nuestra página dedicada a los juegos, uno de los mercados que más ha crecido últimamente. 
-                                                Aquí te presentaremos cinco juegos que han dejado una huella tanto en mí como en un amplio grupo de personas. </p>
-                <div class="col-8"><img src="./img/pacmna.gif" alt="una imagen de un juego" class="imag"></div>    
-            </div>
-        </div>
-
     </main>
     
     
@@ -102,45 +71,33 @@
     <section id="juegos">
         
         <div>
-            <h2 class="sub_h2">Cuatro grandes juegos segun nuestra opinion</h2>
+            <h2 class="subtitulos_index">Cuatro grandes juegos segun nuestra opinion</h2>
             
         </div> 
         
-        <div class="accordion" id="accordionExample">    
-            <article class="container-fluid pad_0">
+        <div class="accordion" id="accordionExample">
+            <article class="container-fluid saca_gutter">
                 
-                <div class="row justify-content-center desktop index_min_fondo">
-            
-                
-                    <p class=" col-9 tex tex_min">Minecraft es un popular videojuego de construcción y 
-                                                  aventura desarrollado por Mojang Studios. Fue lanzado en 2011 y se ha convertido en 
-                                                  uno de los juegos más vendidos de todos los tiempos. Minecraft ha sido elogiado por su 
-                                                  libertad de juego, su enfoque en la creatividad y su comunidad activa de jugadores y 
-                                                  creadores de contenido. 
-                    </p>
-                    <a href="./pages/1.html" class=" col-4 ver_mas_min">VER MAS</a>
-                </div>
-
-
-                <div class="accordion-item index_min_fondo_mobile mobile_tablet">
+              
+                <div class="index_min_fondo_index">
                     
-                    <h2 class="accordion-header">
-                        <button class="acord_juegos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        
-                    </button>
-                    </h2>
-                    <h2 class="tex tex_min_mobile">TOCA PARA VER MAS</h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body ">
-                        <strong class="tex tex_min_mobile">Minecraft es un popular videojuego de construcción y 
-                            aventura desarrollado por Mojang Studios. Fue lanzado en 2011 y se ha convertido en 
-                            uno de los juegos más vendidos de todos los tiempos. Minecraft ha sido elogiado por su 
-                            libertad de juego, su enfoque en la creatividad y su comunidad activa de jugadores y 
-                            creadores de contenido.  </strong>
-                            <a href="./pages/1.html" class="ver_mas_min_mobile">VER MAS</a>
+                    <div class="accordion-header display_lg">
+                        <button class="button_juegos" data-aos="zoom-in" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 class="tex_index_toca_mas_min_index display_lg">TOCA PARA VER MAS</h2>
+                        </button>
                     </div>
-                
-                </div>
+                    
+                    <div id="collapseOne" class="row justify-content-center accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="col-12 col-lg-12 accordion-body ">
+                            <strong><p class="tex_min_index">es un popular videojuego de construcción y 
+                                aventura desarrollado por Mojang Studios. Fue lanzado en 2011 y se ha convertido en 
+                                uno de los juegos más vendidos de todos los tiempos. Minecraft ha sido elogiado por su 
+                                libertad de juego, su enfoque en la creatividad y su comunidad activa de jugadores y 
+                                creadores de contenido. </p>  </strong>
+                            
+                        </div>
+                        <span class="col-6 col-lg-12 d-flex justify-content-center" data-aos="zoom-in"><a href="./pages/1.html" class="ver_mas_min_index">VER MAS</a></span>
+                    </div>
                 </div>
 
                 
@@ -148,119 +105,97 @@
 
 
 
-            <article class="container-fluid pad_0">
-                
-                <div class="row justify-content-center desktop index_drg_fondo">
-                    <p class=" col-9  tex tex_drg">Dragon Ball Budokai Tenkaichi 3 es un emocionante juego de lucha basado en la serie de anime Dragon Ball. Controla a tus personajes favoritos y participa en intensos combates uno contra uno en escenarios icónicos. Desarrollado por Spike Chunsoft.</p> 
-                    <a href="./pages/2.html" class="col-4 ver_mas_drg">VER MAS</a>
-                </div>
-
-                <div class="accordion-item index_drg_fondo_mobile mobile_tablet">
+            <article class="container-fluid saca_gutter">
+                <div class="index_drg_fondo_index">
                     
-                    <h2 class="accordion-header">
-                        <button class="acord_juegos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        
+                    <div class="accordion-header display_lg">
+                        <button class="button_juegos" data-aos="zoom-in" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            <h2 class="tex_index_toca_mas_drg_index display_lg" data-aos="zoom-in">TOCA PARA VER MAS</h2>
                         </button>
-                    </h2>
-                    <h2 class="tex tex_drg_mobile">TOCA PARA VER MAS</h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong class="tex tex_drg_mobile">Dragon Ball Budokai Tenkaichi 3 es un emocionante juego de lucha basado en la serie de anime Dragon Ball. Controla a tus personajes favoritos y participa en intensos combates uno contra uno en escenarios icónicos. Desarrollado por Spike Chunsoft.</strong> 
-                            <span><a href="./pages/2.html" class="col-4 ver_mas_drg_mobile">VER MAS</a></span>
-                        
+                    </div>
+                    
+                    <div id="collapseTwo" class="row justify-content-center accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="col-12 col-lg-12 accordion-body ">
+                            <strong><p class="tex_drg_index">Dragon Ball Budokai Tenkaichi 3 es un emocionante juego de lucha basado en la serie de anime Dragon Ball. Controla a tus personajes favoritos y participa en intensos combates uno contra uno en escenarios icónicos. Desarrollado por Spike Chunsoft. </p>  </strong>
+                            
                         </div>
-                        
+                        <span class="col-6 col-lg-12 d-flex justify-content-center" data-aos="zoom-in"><a href="./pages/2.html" class="ver_mas_drg_index">VER MAS</a></span>
                     </div>
                 </div>
-                
 
             </article>
             
 
-            <article class="container-fluid pad_0">
-                <div class="row align-items-center justify-content-center desktop index_tlof_fondo">
+            <article class="container-fluid saca_gutter">
+                <div class="index_tlof_fondo_index">
                 
-                    <p class="col-9 tex text_tlof">The Last of Us Parte 1 es un aclamado videojuego de acción y supervivencia desarrollado por Naughty Dog. Ambientado en un mundo postapocalíptico, el juego sigue la historia de Joel, un hombre endurecido por la pérdida, y Ellie, una joven valiente y misteriosa.</p> 
-                    <a href="./pages/3.html" class="col-4 ver_mas_tlof">VER MAS</a>
-                </div>
-
-                <div class="accordion-item index_tlof_fondo_mobile mobile_tablet">
-                    
-                    <h2 class="accordion-header">
-                        <button class="acord_juegos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        
+                    <div class="accordion-header display_lg">
+                        <button class="button_juegos" data-aos="zoom-in" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <h2 class="tex_index_toca_mas_tlof_index display_lg">TOCA PARA VER MAS</h2>
                         </button>
-                    </h2>
-                    <h2 class="tex text_tlof_mobile">TOCA PARA VER MAS</h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong class="tex text_tlof_mobile">The Last of Us Parte 1 es un aclamado videojuego de acción y supervivencia desarrollado por Naughty Dog. Ambientado en un mundo postapocalíptico, el juego sigue la historia de Joel, un hombre endurecido por la pérdida, y Ellie, una joven valiente y misteriosa.
-
-                            </strong> 
-                            <a href="./pages/3.html" class="col-4 ver_mas_tlof_mobile">VER MAS</a>
+                    </div>
+                    
+                    <div id="collapseThree" class="row justify-content-center accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="col-12 col-lg-12 accordion-body ">
+                            <strong><p class="tex_tlof_index">The Last of Us Parte 1 es un aclamado videojuego de acción y supervivencia desarrollado por Naughty Dog. Ambientado en un mundo postapocalíptico, el juego sigue la historia de Joel, un hombre endurecido por la pérdida, y Ellie, una joven valiente y misteriosa. </p>  </strong>
+                            
                         </div>
-                        
+                        <span class="col-6 col-lg-12 d-flex justify-content-center" data-aos="zoom-in"><a href="./pages/3.html" class="ver_mas_tlof_index">VER MAS</a></span>
                     </div>
                 </div>
 
             </article>
             
             
-            <article class=" container-fluid pad_0">
-                <div class="row align-items-center justify-content-center desktop index_fifa_fondo">
-                    <p class="col-9 tex tex_fifa">FIFA es una reconocida franquicia de videojuegos de fútbol desarrollada por EA Sports. Cada año, se lanza una nueva entrega que ofrece una experiencia auténtica y realista del deporte más popular del mundo. </p>
-                    <a href="./pages/4.html" class="col-4 ver_mas_fifa">VER MAS</a>
-                
-                </div>
-                
-                <div class="accordion-item index_fifa_fondo_mobile mobile_tablet">
-                    <h2 class="accordion-header">
-                        <button class="acord_juegos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        
+            <article class=" container-fluid saca_gutter">
+                <div class="index_fifa_fondo_index">
+                    
+                    <div class="accordion-header display_lg">
+                        <button class="button_juegos" data-aos="zoom-in" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            <h2 class="tex_index_toca_mas_fifa_index display_lg" data-aos="zoom-in">TOCA PARA VER MAS</h2>
                         </button>
-                    </h2>
-                    <h2 class="tex text_fifa_mobile">TOCA PARA VER MAS</h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong class="tex text_fifa_mobile">FIFA es una reconocida franquicia de videojuegos de fútbol desarrollada por EA Sports. Cada año, se lanza una nueva entrega que ofrece una experiencia auténtica y realista del deporte más popular del mundo.</strong> 
-                            <a href="./pages/4.html" class="col-4 ver_mas_fifa_mobile">VER MAS</a>
+                    </div>
+                    
+                    <div id="collapseFour" class="row justify-content-center accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="col-12 col-lg-12 accordion-body ">
+                            <strong><p class="tex_fifa_index">FIFA es una reconocida franquicia de videojuegos de fútbol desarrollada por EA Sports. Cada año, se lanza una nueva entrega que ofrece una experiencia auténtica y realista del deporte más popular del mundo. </p>  </strong>
+                            
                         </div>
-                        
+                        <span class="col-6 col-lg-12 d-flex justify-content-center" data-aos="zoom-in"><a href="./pages/4.html" class="ver_mas_fifa_index">VER MAS</a></span>
                     </div>
                 </div>
-
-
-
+                
             </article>
         
         </div>
 
         
-            
-    </section>
-    <section id="final">
-        <h2 class="sub_h2">Conclucion</h2>
-        <p class="tex tex_main">En conclusión, todos estos juegos han dejado una huella tanto en mí como en la industria del gaming en general. ¿Quién no ha pasado horas inmerso en la supervivencia de Minecraft o disfrutando de intensas batallas en Sky Wars? ¿Quién no ha vibrado con la épica experiencia de Dragon Ball, rompiendo controles de juego en el proceso? ¿Quién no ha sentido emociones intensas con la cautivadora historia de The Last of Us? Y, por supuesto, ¿quién no ha perdido amistades en acalorados partidos de FIFA?
+  
+          
 
-            Espero sinceramente que mi página les haya gustado y entretenido, además de haberles proporcionado algo de utilidad. Ha sido un placer compartir mi pasión por los juegos con ustedes y espero seguir ofreciendo contenido interesante y emocionante en el futuro. ¡Gracias por visitar mi página y ser parte de esta increíble comunidad de jugadores!</p>
+ </section>
+    <section id="final">
+       <span><h2 class="subtitulos_index">Conclucion</h2></span> 
+        <span><p class="tex_index">En resumen, estos juegos han dejado una huella en mí y en la industria del gaming. ¿Quién no ha pasado horas en Minecraft o disfrutado de batallas en Sky Wars? ¿Quién no ha vibrado con Dragon Ball y sus épicas experiencias? ¿Quién no ha sentido emociones intensas con The Last of Us? Y, ¿quién no ha perdido amistades en apasionados partidos de FIFA? Espero que disfruten mi página y encuentren algo útil. Ha sido un placer compartir mi pasión por los juegos y espero seguir ofreciendo contenido emocionante en el futuro. ¡Gracias por visitar mi página y ser parte de esta increíble comunidad de jugadores!</p></span>
     </section>
     <footer id="footer">
-        <div class="row desktop">
-            <h2 class="col-9 tex">Conéctate con nosotros, Síguenos en redes sociales:</h2>
-            <a class="col-1" href="https://www.instagram.com/caceresian/" target="_blank" ><img src="./img/instagram.png" alt="logo de instagram"class="Redes_Footer"></a>
-            <a class="col-1" href="https://twitter.com/Iancaceres41" target="_blank" ><img src="./img/twitter.png" alt="logo de twitter" class="Redes_Footer"></a>
+        <div class="container-fluid ">
+            <div class="row justify-content-center align-items-center">
+                <span class="col-sm-8 col-12"><h2 class="tex_footer">Conéctate con nosotros, Síguenos en redes sociales:</h2></span>
+                <span class="col-sm-1 col-3 "><a   href="https://www.instagram.com/caceresian/" target="_blank" ><img class="Redes_Footer" src="./img/instagram.png" alt="logo de instagram"></a></span>
+                <span class="col-sm-1 col-3"><a  href="https://twitter.com/Iancaceres41" target="_blank" ><img class="Redes_Footer" src="./img/twitter.png" alt="logo de twitter" ></a></span>
+            </div>
         </div>
         
-        
-        <div class="row mobile_tablet align-items-center">
-            <h3 class="col-7 tex tex_footer_mobile">Conéctate con nosotros, Síguenos en redes sociales</h2>
-            <a class="col-2" href="https://www.instagram.com/caceresian/" target="_blank" ><img src="./img/instagram.png" alt="logo de instagram"class="Redes_Footer"></a>
-            <a class="col-2" href="https://twitter.com/Iancaceres41" target="_blank" ><img src="./img/twitter.png" alt="logo de twitter" class="Redes_Footer"></a>
-        </div>
     </footer>
     
 
 
     <!-- Bootrsrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>

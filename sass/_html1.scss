@@ -1,0 +1,128 @@
+
+
+
+.tex_min{
+    color: greenyellow;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    text-decoration: none;
+    @media (max-width: 992px){
+        font-size: 2rem;
+    }
+
+    @media (max-width: 768px){
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    @media (max-width: 576px){
+            text-align: center;
+            font-size: 2rem;
+        }
+}
+
+.tex_min_fondo{
+    @extend .tex_min;
+    background-color: rgba(30, 93, 43, 0.26);
+    border-radius: 2rem;
+}
+
+
+
+.subtitulos_min{
+    @extend .tex_min;
+    color: white;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+     
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0rem;
+    @media(max-width: 768px){
+        font-size: 3rem;
+        
+    }
+}
+
+
+.img_min{
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 2rem;
+   
+}
+
+
+
+// main
+
+#main_min{
+    
+    background-image: url(../img/minecraft_fondo_main.jpg);
+    background-size: 205%;
+    background-position: center;
+    object-fit: cover;
+    padding: 2rem;
+    
+}
+
+// survival creativo
+
+#surv_crea_min{
+    background-image: url(../img/minecraft_fondo.jpg);
+    
+    
+}
+.img_surv_crea_min{
+    
+    @extend .img_min;
+    background-position: center;
+    padding: 1rem;
+    
+}
+
+#surv_min{
+    background-image: url(../img/minecraft_fondo_surv.jpg);
+    background-image: 100%;
+    
+}
+
+#crea_min{
+    background-image: url(../img/minecraft_fondo_crea.png);
+    background-image: 100%;
+}
+
+// multijugador servidores
+
+
+#mult_serv_min{
+    background-image: url(../img/minecraft_fondo.jpg);
+    
+}
+
+#mult_min{
+    background-image: url(../img/minecraft_fondo_mult.png);
+    background-size: 100%;
+
+}
+#serv_min{
+    background-image: url(../img/minecraft_fondo_serv.jpg);
+    background-size: 100%;
+}
+#final_min{
+    background-image: url(../img/minecraft_fondo.jpg);}
+
+.cont_link_final{
+    position: relative;
+    text-align: center;
+
+}
+.link_final_min{
+    text-decoration:underline;
+    &:hover{ color: greenyellow;}
+
+   
+}

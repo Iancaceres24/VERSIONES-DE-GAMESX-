@@ -1,0 +1,67 @@
+
+.tex_header{  text-decoration: none;
+  color: white;
+  font-family: 'Bruno Ace', cursive;
+  &:hover{
+      color:  blue;
+  }
+  }    
+
+#header {
+    background-color: #102742;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .logo {
+    height: 6rem;
+    position: fixed;
+    
+    top: 1rem;
+    
+  }
+
+  .gamesx {
+    @extend .tex_header;
+    font-size: 3rem;
+    text-align: center;
+    @media (max-width: 576px){
+      text-align: end;
+    }
+    }       
+           
+  .Juegos_Redes {
+    @extend .tex_header;
+    font-size: 2rem;
+    text-align: end;
+  }
+
+  @media (max-width: 900px) {
+    .desktop {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .mobile_tablet {
+      display: none;
+    }
+  }
+  
+  .button_header {
+    background-color: white;
+    margin-bottom: 2rem;
+  }
+
+  .nav_head{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Redes{
+    text-align: end;
+    @media(max-width: 992px){
+      text-align: start;
+    }
+  }
