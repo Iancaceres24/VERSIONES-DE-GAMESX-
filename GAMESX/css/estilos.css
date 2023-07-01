@@ -1,0 +1,983 @@
+.tex_header, .Juegos_Redes, .gamesx {
+  text-decoration: none;
+  color: white;
+  font-family: "Bruno Ace", cursive;
+}
+.tex_header:hover, .Juegos_Redes:hover, .gamesx:hover {
+  color: blue;
+}
+
+#header {
+  background-color: #102742;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+}
+
+.logo {
+  height: 6rem;
+  position: fixed;
+  z-index: 9999;
+  top: 1rem;
+}
+
+.gamesx {
+  font-size: 3rem;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .gamesx {
+    text-align: end;
+  }
+}
+
+.Juegos_Redes {
+  font-size: 2rem;
+  text-align: end;
+}
+
+@media (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .mobile_tablet {
+    display: none;
+  }
+}
+.button_header {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.nav_head {
+  display: flex;
+  justify-content: center;
+}
+
+.Redes {
+  text-align: end;
+}
+@media (max-width: 992px) {
+  .Redes {
+    text-align: start;
+  }
+}
+
+#footer {
+  background-color: #102742;
+  height: 100%;
+  width: 100%;
+}
+#footer div {
+  margin: 0;
+}
+
+.tex_footer {
+  color: white;
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+}
+@media (max-width: 992px) {
+  .tex_footer {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_footer {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+.Redes_Footer {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+}
+@media (max-width: 576px) {
+  .Redes_Footer {
+    height: 100%;
+    width: 100%;
+    margin: 0rem;
+    padding: 1rem;
+  }
+}
+
+.tex_index, .title_plataf, .tex_plataf, .tex_index_toca_mas_fifa_index, .tex_fifa_index, .tex_index_toca_mas_tlof_index, .tex_tlof_index, .tex_index_toca_mas_drg_index, .tex_drg_index, .tex_index_toca_mas_min_index, .tex_min_index, .subtitulos_index, .subtitulos_main {
+  color: white;
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .tex_index, .title_plataf, .tex_plataf, .tex_index_toca_mas_fifa_index, .tex_fifa_index, .tex_index_toca_mas_tlof_index, .tex_tlof_index, .tex_index_toca_mas_drg_index, .tex_drg_index, .tex_index_toca_mas_min_index, .tex_min_index, .subtitulos_index, .subtitulos_main {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.index_scale:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.imag_index {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.index_fondo, .index_fifa_fondo_index, .index_tlof_fondo_index, .index_drg_fondo_index, .index_min_fondo_index {
+  padding: 2rem;
+  background-size: 100%;
+}
+
+.ver_mas, .ver_mas_fifa_index, .ver_mas_tlof_index, .ver_mas_drg_index, .ver_mas_min_index {
+  font-size: 3rem;
+  color: white;
+  -webkit-text-stroke: white;
+  text-decoration: none;
+  height: 100%;
+  width: 30%;
+  padding: 2rem 0rem;
+  border-radius: 2rem;
+  font-family: "Bruno Ace", cursive;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .ver_mas, .ver_mas_fifa_index, .ver_mas_tlof_index, .ver_mas_drg_index, .ver_mas_min_index {
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .display_min_lg {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .display_max_lg {
+    display: none;
+  }
+}
+
+.subtitulos_index, .subtitulos_main {
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+  text-align: center;
+  background-color: #102742;
+  font-size: 4rem;
+  margin: 0rem;
+}
+@media (max-width: 768px) {
+  .subtitulos_index, .subtitulos_main {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .subtitulos_index, .subtitulos_main {
+    font-size: 2.5rem;
+  }
+}
+
+#main_index {
+  background-image: url(../img/index_fondo1.jpg);
+  background-size: 100%;
+}
+
+.subtitulos_main {
+  background-color: transparent;
+}
+
+.acordion_main_index, .acordion_main_index1 {
+  border-radius: 5rem;
+  background: linear-gradient(90deg, #102742, #4984cb);
+}
+
+.acordion_main_index1 {
+  background: linear-gradient(90deg, #4984cb, #102742);
+}
+
+.fondo, .fondo1 {
+  margin: 1rem;
+  background: linear-gradient(90deg, #102742, #4984cb);
+  border-radius: 5rem;
+  padding: 5rem;
+}
+@media (max-width: 992px) {
+  .fondo, .fondo1 {
+    padding: 1rem;
+  }
+}
+
+.fondo1 {
+  background: linear-gradient(90deg, #4984cb, #102742);
+}
+
+.button_juegos {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+}
+
+.index_min_fondo_index {
+  background-image: url(../img/minecraft_index.jpg);
+  background-position: top;
+}
+
+.tex_min_index {
+  padding: 10rem;
+  height: auto;
+  color: greenyellow;
+  background-color: rgba(30, 93, 43, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+}
+@media (max-width: 768px) {
+  .tex_min_index {
+    font-size: 2.5rem;
+    padding: 6rem;
+    -webkit-text-stroke: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_min_index {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(30, 93, 43, 0.795);
+  }
+}
+
+.ver_mas_min_index {
+  background-color: rgba(30, 93, 43, 0.5);
+}
+.ver_mas_min_index:hover {
+  color: greenyellow;
+}
+@media (max-width: 576px) {
+  .ver_mas_min_index {
+    background-color: rgba(30, 93, 43, 0.795);
+  }
+}
+
+.tex_index_toca_mas_min_index {
+  color: white;
+  background-color: rgba(36, 128, 54, 0.233);
+  line-height: 5;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.tex_index_toca_mas_min_index:active {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .tex_index_toca_mas_min_index {
+    font-size: 3rem;
+    line-height: 6;
+  }
+}
+@media (max-width: 576px) {
+  .tex_index_toca_mas_min_index {
+    font-size: 2rem;
+    line-height: 8;
+  }
+}
+
+@media (min-width: 992px) {
+  #collapseOne {
+    display: block;
+  }
+}
+.index_drg_fondo_index {
+  background-image: url(../img/drgbt3_index.jpg);
+  background-position: bottom;
+}
+
+.tex_drg_index {
+  padding: 10rem;
+  height: auto;
+  color: yellow;
+  background-color: rgba(232, 184, 11, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+}
+@media (max-width: 768px) {
+  .tex_drg_index {
+    font-size: 2.5rem;
+    padding: 6rem;
+    -webkit-text-stroke: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_drg_index {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(232, 184, 11, 0.795);
+  }
+}
+
+.ver_mas_drg_index {
+  background-color: rgba(232, 184, 11, 0.5);
+}
+.ver_mas_drg_index:hover {
+  color: yellow;
+}
+@media (max-width: 576px) {
+  .ver_mas_drg_index {
+    background-color: rgba(232, 184, 11, 0.795);
+  }
+}
+
+.tex_index_toca_mas_drg_index {
+  color: white;
+  background-color: rgba(232, 184, 11, 0.233);
+  line-height: 5;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.tex_index_toca_mas_drg_index:active {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .tex_index_toca_mas_drg_index {
+    font-size: 3rem;
+    line-height: 6;
+  }
+}
+@media (max-width: 576px) {
+  .tex_index_toca_mas_drg_index {
+    font-size: 2rem;
+    line-height: 8;
+  }
+}
+
+@media (min-width: 992px) {
+  #collapseTwo {
+    display: block;
+  }
+}
+.index_tlof_fondo_index {
+  background-image: url(../img/tlou_index.jpg);
+  background-position: top;
+}
+
+.tex_tlof_index {
+  padding: 10rem;
+  height: auto;
+  background-color: rgba(139, 140, 141, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+}
+@media (max-width: 768px) {
+  .tex_tlof_index {
+    font-size: 2.5rem;
+    padding: 6rem;
+    -webkit-text-stroke: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_tlof_index {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(139, 140, 141, 0.795);
+  }
+}
+
+.ver_mas_tlof_index {
+  background-color: rgba(139, 140, 141, 0.5);
+}
+.ver_mas_tlof_index:hover {
+  color: black;
+}
+@media (max-width: 576px) {
+  .ver_mas_tlof_index {
+    background-color: rgba(139, 140, 141, 0.795);
+  }
+}
+
+.tex_index_toca_mas_tlof_index {
+  color: white;
+  background-color: rgba(139, 140, 141, 0.267);
+  line-height: 5;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.tex_index_toca_mas_tlof_index:active {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .tex_index_toca_mas_tlof_index {
+    font-size: 3rem;
+    line-height: 6;
+  }
+}
+@media (max-width: 576px) {
+  .tex_index_toca_mas_tlof_index {
+    font-size: 2rem;
+    line-height: 8;
+  }
+}
+
+@media (min-width: 992px) {
+  #collapseThree {
+    display: block;
+  }
+}
+.index_fifa_fondo_index {
+  background-position: center;
+  background-image: url(../img/fifa_index.jpg);
+}
+
+.tex_fifa_index {
+  color: rgb(10, 222, 233);
+  padding: 10rem;
+  height: auto;
+  background-color: rgba(53, 103, 136, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+}
+@media (max-width: 768px) {
+  .tex_fifa_index {
+    font-size: 2.5rem;
+    padding: 6rem;
+    -webkit-text-stroke: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_fifa_index {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(53, 103, 136, 0.795);
+  }
+}
+
+.ver_mas_fifa_index {
+  background-color: rgba(53, 103, 136, 0.5);
+}
+.ver_mas_fifa_index:hover {
+  color: rgb(10, 222, 233);
+}
+@media (max-width: 576px) {
+  .ver_mas_fifa_index {
+    background-color: rgba(53, 103, 136, 0.795);
+  }
+}
+
+.tex_index_toca_mas_fifa_index {
+  color: white;
+  background-color: rgba(53, 103, 136, 0.233);
+  line-height: 5;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.tex_index_toca_mas_fifa_index:active {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .tex_index_toca_mas_fifa_index {
+    font-size: 3rem;
+    line-height: 6;
+  }
+}
+@media (max-width: 576px) {
+  .tex_index_toca_mas_fifa_index {
+    font-size: 2rem;
+    line-height: 8;
+  }
+}
+
+@media (min-width: 992px) {
+  #collapseFour {
+    display: block;
+  }
+}
+#plataformas {
+  background-image: url(../img/fondo1.jpg);
+  background-size: 100%;
+}
+
+.index_cont_plataf {
+  background: linear-gradient(90deg, #102742, #4984cb);
+  margin: 2rem;
+  border-radius: 3rem;
+}
+
+.tex_plataf {
+  font-size: 2.5rem;
+}
+@media (max-width: 576px) {
+  .tex_plataf {
+    font-size: 2rem;
+  }
+}
+
+.title_plataf {
+  font-size: 3.5rem;
+  padding: 3rem;
+  color: white;
+}
+
+.tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+  color: greenyellow;
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.tex_min_fondo {
+  background-color: rgba(30, 93, 43, 0.26);
+  border-radius: 2rem;
+}
+
+.subtitulos_min {
+  color: white;
+  text-align: start;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0rem;
+}
+@media (max-width: 768px) {
+  .subtitulos_min {
+    font-size: 3rem;
+  }
+}
+
+.img_min, .img_surv_crea_min {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+#main_min {
+  background-image: url(../img/minecraft_fondo_main.jpg);
+  background-size: 205%;
+  background-position: center;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+#surv_crea_min {
+  background-image: url(../img/minecraft_fondo.jpg);
+}
+
+.img_surv_crea_min {
+  background-position: center;
+  padding: 1rem;
+}
+
+#mult_serv_min {
+  background-image: url(../img/minecraft_fondo_2.jpg);
+}
+
+.link_serv_min {
+  text-decoration: none;
+}
+.link_serv_min:hover {
+  color: white;
+}
+@media (max-width: 768px) {
+  .link_serv_min {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  .link_serv_min {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .link_serv_min {
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+}
+
+.min_scale:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#final_min {
+  background-image: url(../img/minecraft_fondo_main.jpg);
+  background-size: 205%;
+  background-position: center;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+.cont_link_final {
+  position: relative;
+  text-align: center;
+}
+
+.link_final_min {
+  text-decoration: underline;
+}
+.link_final_min:hover {
+  color: greenyellow;
+}
+
+.tex_drg, .tex_drg_fondo, .subtitulos_drg, .tex_drg_gran {
+  color: yellow;
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .tex_drg, .tex_drg_fondo, .subtitulos_drg, .tex_drg_gran {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_drg, .tex_drg_fondo, .subtitulos_drg, .tex_drg_gran {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_drg, .tex_drg_fondo, .subtitulos_drg, .tex_drg_gran {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.tex_drg_gran {
+  font-size: 3.5rem;
+  color: white;
+  background-color: rgba(160, 100, 11, 0.61);
+}
+@media (max-width: 992px) {
+  .tex_drg_gran {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_drg_gran {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_drg_gran {
+    font-size: 2.2rem;
+  }
+}
+
+.subtitulos_drg {
+  color: white;
+  text-align: start;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .subtitulos_drg {
+    font-size: 3rem;
+  }
+}
+
+.tex_drg_fondo {
+  background-color: rgba(20, 17, 1, 0.623);
+  border-radius: 2rem;
+}
+
+.img_drg {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+#main_drg {
+  background-image: url(../img/drgbt3_main_fondo.jpg);
+}
+
+#per_drg {
+  background-image: url(../img/drgbt3_fondo_1.jpg);
+}
+
+#final_drg {
+  background-image: url(../img/drgbt3_main_fondo.jpg);
+  background-size: 100%;
+}
+
+.link_final_drg {
+  text-decoration: underline;
+}
+.link_final_drg:hover {
+  color: yellow;
+}
+
+.tex_tlof, .tex_tlof_fondo, .subtitulos_tlof, .tex_tlof_gran {
+  color: white;
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .tex_tlof, .tex_tlof_fondo, .subtitulos_tlof, .tex_tlof_gran {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_tlof, .tex_tlof_fondo, .subtitulos_tlof, .tex_tlof_gran {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_tlof, .tex_tlof_fondo, .subtitulos_tlof, .tex_tlof_gran {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.tex_tlof_gran {
+  background-color: rgba(29, 29, 28, 0.466);
+  border-radius: 2rem;
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+@media (max-width: 992px) {
+  .tex_tlof_gran {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_tlof_gran {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_tlof_gran {
+    font-size: 2.5rem;
+  }
+}
+
+.subtitulos_tlof {
+  color: white;
+  text-align: start;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .subtitulos_tlof {
+    font-size: 3rem;
+  }
+}
+
+.tex_tlof_fondo {
+  background-color: rgba(29, 29, 28, 0.253);
+  border-radius: 2rem;
+}
+@media (max-width: 576px) {
+  .tex_tlof_fondo {
+    background-color: rgba(29, 29, 28, 0.678);
+  }
+}
+
+#main_tlof {
+  background-image: url(../img/tlou_fondo.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+#pro_tlof {
+  background-image: url(../img/tlou_fondo.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+#infectados {
+  background-image: url(../img/tlou_fondo.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.tlou_progres {
+  background-color: gray;
+}
+
+.tlou_progres_cont {
+  background-color: white;
+}
+.tlou_progres_cont:hover {
+  background-color: black;
+}
+
+#final_tlof {
+  background-image: url(../img/tlou_fondo.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.link_final_tlof {
+  text-decoration: underline;
+}
+.link_final_tlof:hover {
+  color: black;
+}
+
+.tex_fifa, .tex_fifa_fondo, .tex_fifa_list, .subtitulos_fifa {
+  color: rgb(158, 252, 247);
+  background-color: rgba(29, 29, 28, 0.37);
+  font-family: "Bruno Ace", cursive;
+  font-size: 3rem;
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .tex_fifa, .tex_fifa_fondo, .tex_fifa_list, .subtitulos_fifa {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_fifa, .tex_fifa_fondo, .tex_fifa_list, .subtitulos_fifa {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_fifa, .tex_fifa_fondo, .tex_fifa_list, .subtitulos_fifa {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.subtitulos_fifa {
+  color: white;
+  text-align: start;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .subtitulos_fifa {
+    font-size: 3rem;
+  }
+}
+
+.tex_fifa_fondo, .tex_fifa_list {
+  background-color: rgba(29, 29, 28, 0.253);
+  border-radius: 2rem;
+}
+
+.tex_fifa_list {
+  background-size: 2rem;
+  color: white;
+}
+
+.lis_fifa {
+  list-style-type: none;
+  margin: 0rem;
+}
+
+.lis_fifa1:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.link_final_fifa {
+  text-decoration: underline;
+}
+.link_final_fifa:hover {
+  color: rgb(10, 222, 233);
+}
+
+#main_fifa {
+  background-image: url(../img/fifa_fondo.jpg);
+}
+
+#mod_fifa {
+  background-image: url(../img/fifa_fondo.jpg);
+}
+
+#fifa_juga {
+  background-image: url(../img/fifa_fondo.jpg);
+}
+
+#final_fifa {
+  background-image: url(../img/fifa_fondo.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.saca_gutter {
+  --bs-gutter-x: 0 ;
+}
+
+.vid {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.con_vid {
+  height: 315px;
+  margin-bottom: 3rem;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

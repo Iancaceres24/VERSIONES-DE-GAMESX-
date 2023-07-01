@@ -1,0 +1,80 @@
+.tex_fifa{
+    
+    color: rgb(158, 252, 247);
+    background-color: rgba(29, 29, 28, 0.37);
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    text-decoration: none;
+    @media (max-width: 992px){
+        font-size: 2rem;
+    }
+
+    @media (max-width: 768px){
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    @media (max-width: 576px){
+            text-align: center;
+            font-size: 2rem;
+        }
+}
+
+.subtitulos_fifa{
+    @extend .tex_fifa;
+    color: white;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0rem;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    @media(max-width: 768px){
+        font-size: 3rem;
+        
+    }
+}
+.tex_fifa_fondo{
+    @extend .tex_fifa;
+    background-color: rgba(29, 29, 28, 0.253);
+    border-radius: 2rem;
+}
+
+.tex_fifa_list{
+    @extend .tex_fifa_fondo;
+    background-size: 2rem;
+    color: white;
+}
+
+.lis_fifa{
+    list-style-type: none;
+    margin: 0rem;
+}
+.lis_fifa1{
+    &:hover{
+        transform: scale(1.5,1.5);
+    }
+}
+.link_final_fifa{
+    text-decoration:underline;
+    &:hover{ color: rgb(10, 222, 233);}
+}
+
+
+#main_fifa{
+    background-image: url(../img/fifa_fondo.jpg);
+}
+
+#mod_fifa{
+    background-image: url(../img/fifa_fondo.jpg);
+}
+
+#fifa_juga{
+    background-image: url(../img/fifa_fondo.jpg);
+}
+
+
+#final_fifa{
+    background-image: url(../img/fifa_fondo.jpg);
+}

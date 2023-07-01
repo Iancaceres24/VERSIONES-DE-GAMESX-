@@ -1,0 +1,39 @@
+
+@use "header_footer/_header.scss";
+@use "header_footer/_footer.scss";
+@use "_index.scss";
+@use "_html1.scss";
+@use "_html2.scss";
+@use "_html3.scss";
+@use "_html4.scss";
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+
+}
+.saca_gutter{
+    --bs-gutter-x: 0
+}
+
+.vid{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.con_vid{
+    height: 315px;
+    margin-bottom: 3rem;
+}
+
+.img{
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 2rem;
+   
+}

@@ -1,0 +1,109 @@
+.tex_tlof{
+    
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    text-decoration: none;
+    @media (max-width: 992px){
+        font-size: 2rem;
+    }
+
+    @media (max-width: 768px){
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    @media (max-width: 576px){
+            text-align: center;
+            font-size: 2rem;
+            
+        }
+}
+
+.tex_tlof_gran{
+    @extend .tex_tlof;
+    background-color: rgba(29, 29, 28, 0.466);
+    border-radius: 2rem;
+    font-size: 3.5rem;
+    padding: 2rem;
+    
+    @media (max-width: 992px){
+        font-size: 2.5rem;
+    }
+    @media (max-width: 768px){
+            
+            font-size: 3rem;
+        }
+    @media (max-width: 576px){
+            
+            font-size: 2.5rem;
+        }
+}
+
+
+
+.subtitulos_tlof{
+    @extend .tex_tlof;
+    color: white;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0rem;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    @media(max-width: 768px){
+        font-size: 3rem;
+        
+    }
+}
+.tex_tlof_fondo{
+    @extend .tex_tlof;
+    background-color: rgba(29, 29, 28, 0.253);
+    border-radius: 2rem;
+    @media (max-width: 576px){
+        background-color: rgba(29, 29, 28, 0.678);
+        
+    }
+}
+
+
+#main_tlof{
+    background-image: url(../img/tlou_fondo.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+
+
+#pro_tlof{
+    background-image: url(../img/tlou_fondo.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#infectados{
+    background-image: url(../img/tlou_fondo.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+.tlou_progres{
+    background-color: gray;
+}
+
+.tlou_progres_cont{
+    
+    background-color: white;
+    &:hover{
+        background-color: black;
+    }
+}
+
+#final_tlof{
+    background-image: url(../img/tlou_fondo.jpg);
+    background-size: 100%;
+    background-position: center;}
+.link_final_tlof{
+        text-decoration:underline;
+        &:hover{ color: black;}
+}

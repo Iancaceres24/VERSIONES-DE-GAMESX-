@@ -1,0 +1,93 @@
+
+
+
+.tex_drg{
+    
+        color: yellow;
+        font-family: 'Bruno Ace', cursive;
+        font-size: 3rem;
+        text-decoration: none;
+        @media (max-width: 992px){
+            font-size: 2rem;
+        }
+    
+        @media (max-width: 768px){
+                text-align: center;
+                font-size: 2.5rem;
+            }
+        @media (max-width: 576px){
+                text-align: center;
+                font-size:2rem;
+            }
+    }
+.tex_drg_gran{
+    @extend .tex_drg;
+    font-size: 3.5rem;
+    color: white;
+    background-color: rgba(160, 100, 11, 0.61);
+    @media(max-width: 992px){
+        font-size: 2.2rem;
+    }
+    @media (max-width: 768px){
+        font-size: 2.7rem;
+    }
+    @media (max-width: 576px){
+        font-size:2.2rem;
+    }
+    
+    
+}
+.subtitulos_drg{
+        @extend .tex_drg;
+        color: white;
+        text-align: start;
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0rem;
+        text-shadow: 3px 3px 5px rgb(0, 0, 0);
+        @media(max-width: 768px){
+            font-size: 3rem;
+            
+        }
+    }
+    .tex_drg_fondo{
+        @extend .tex_drg;
+        
+        background-color: rgba(20, 17, 1, 0.623);
+        border-radius: 2rem;
+    }
+    
+
+
+.img_drg{
+        height: auto;
+        width: 100%;
+        margin: 1rem;
+        object-fit: cover;
+        border-radius: 2rem;    }
+    
+
+    #main_drg{
+        background-image: url(../img/drgbt3_main_fondo.jpg);
+    }
+    
+
+
+#per_drg{
+    background-image: url(../img/drgbt3_fondo_1.jpg);
+    
+}
+
+#final_drg{
+    background-image: url(../img/drgbt3_main_fondo.jpg);
+    background-size: 100%;
+}
+.link_final_drg{
+    text-decoration:underline;
+    &:hover{ color: yellow;}
+
+
+}

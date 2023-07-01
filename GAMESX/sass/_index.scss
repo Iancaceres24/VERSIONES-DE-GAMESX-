@@ -1,0 +1,436 @@
+// GLOBAL
+
+.tex_index{
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    @media (max-width: 768px){
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+
+.index_scale{
+        &:hover{
+            transform: scale(1.5,1.5);
+        }
+    
+        }
+    
+
+.imag_index{
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 2rem;
+
+}
+
+.index_fondo{
+    padding: 2rem;
+    background-size: 100%;
+}
+
+
+.ver_mas{
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke: white;
+    text-decoration: none;
+    height: 100%;
+    width: 30%;
+    padding: 2rem 0rem;
+    border-radius: 2rem;
+    font-family:'Bruno Ace', cursive;
+    text-align: center; 
+    @media(max-width: 992px){
+        font-size: 2rem;
+        height: 100%;
+        width: 100%;
+        
+        }
+}
+
+
+
+.display_min_lg{
+    @media (min-width: 992px){
+    display: none;}
+    }
+.display_max_lg{
+    @media (max-width: 992px){
+        display: none;}
+}
+.subtitulos_index{
+        @extend .tex_index;
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        text-align: center;   
+        background-color: #102742;
+        font-size: 4rem;
+        margin: 0rem;
+        @media(max-width: 768px){
+            font-size: 3rem;
+            
+        }
+        @media(max-width: 576px)
+        {   font-size: 2.5rem;}
+    }    
+
+// main
+
+#main_index{
+    
+    background-image: url(../img/index_fondo1.jpg);
+    background-size: 100%;
+}
+
+
+
+.subtitulos_main{
+    @extend .subtitulos_index;
+    background-color: transparent;
+}
+
+
+
+.acordion_main_index{
+    border-radius: 5rem;
+    background: linear-gradient(90deg, #102742, #4984cb);
+}
+.acordion_main_index1{
+    @extend .acordion_main_index;
+    background: linear-gradient(90deg,  #4984cb, #102742);
+}
+.fondo{
+    margin: 1rem;
+    background: linear-gradient(90deg, #102742, #4984cb);
+    border-radius: 5rem;
+    padding: 5rem;
+    @media (max-width: 992px){
+        padding: 1rem;
+    }
+}
+.fondo1{
+    @extend .fondo;
+    background: linear-gradient(90deg,  #4984cb, #102742);
+}
+
+// JUEGOS
+
+
+.button_juegos{
+    
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: 0rem}
+
+// minecraft
+.index_min_fondo_index{
+    @extend .index_fondo;
+    background-image: url(../img/minecraft_index.jpg);
+    background-position: top;    
+}
+
+.tex_min_index{
+    @extend .tex_index;
+    padding: 10rem;
+    height: auto;
+    color: greenyellow;
+    background-color: rgba(30, 93, 43, 0.5);
+    border-radius: 1rem;
+    text-align: center;
+    -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+    @media(max-width: 768px){
+        font-size: 2.5rem;
+        padding: 6rem;
+        -webkit-text-stroke: 0rem;
+    }
+    @media(max-width: 576px)
+    {   font-size: 2rem;
+        padding: 1rem;
+        background-color: rgba(30, 93, 43, 0.795);
+
+    }
+    
+}
+
+.ver_mas_min_index{
+    @extend .ver_mas;
+    background-color: rgba(30, 93, 43, 0.5);
+    &:hover{color: greenyellow;}
+    @media(max-width: 576px){
+        background-color: rgba(30, 93, 43, 0.795);
+    }
+}
+
+
+.tex_index_toca_mas_min_index{
+    @extend .tex_index;
+    color: white;
+    background-color: rgba(36, 128, 54, 0.233);
+    line-height: 5;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold; 
+    &:active{
+        background-color: transparent;
+    } 
+    @media(max-width: 768px){
+    font-size: 3rem;
+    line-height: 6;}
+    @media (max-width: 576px){
+            font-size: 2rem;
+            line-height: 8;
+            
+    }
+    
+    }
+    @media (min-width: 992px) {
+        #collapseOne {
+        display: block;
+        }
+    }
+    
+    // dragon ball budokai tenkachi 3
+    
+    .index_drg_fondo_index{
+        @extend .index_fondo;
+        background-image: url(../img/drgbt3_index.jpg);
+        background-position: bottom;   
+    }
+    
+    .tex_drg_index{
+        @extend .tex_index;
+        padding: 10rem;
+        height: auto;
+        color: yellow;
+        background-color: rgba(232, 184, 11, 0.5);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+            background-color: rgba(232, 184, 11, 0.795);
+        }
+        
+    }
+    
+    .ver_mas_drg_index{
+        
+        @extend .ver_mas;
+        background-color: rgba(232, 184, 11, 0.5);
+    &:hover{color: yellow;}
+    @media(max-width: 576px){
+        background-color: rgba(232, 184, 11, 0.795);
+    }
+    } 
+    
+.tex_index_toca_mas_drg_index{
+    
+    @extend .tex_index;
+        color: white;
+        background-color: rgba(232, 184, 11, 0.233);
+        line-height: 5;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold; 
+        &:active{
+            background-color: transparent;
+        } 
+        @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                line-height: 8;
+                
+        }
+        }
+        @media (min-width: 992px) {
+            #collapseTwo {
+                display: block;
+            }
+        
+
+}
+
+// the last of us
+
+.index_tlof_fondo_index{
+    @extend .index_fondo;
+    background-image: url(../img/tlou_index.jpg);
+    background-position: top;      
+}
+
+
+
+.tex_tlof_index{ 
+    @extend .tex_index;
+        padding: 10rem;
+        height: auto;
+        background-color: rgba(139, 140, 141, 0.5);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+            background-color: rgba(139, 140, 141, 0.795);
+        }
+    }
+
+.ver_mas_tlof_index{
+    @extend .ver_mas;
+    background-color: rgba(139, 140, 141, 0.5);
+    &:hover{color: black;}
+    @media(max-width: 576px){
+        background-color: rgba(139, 140, 141, 0.795);
+    }
+}
+
+.tex_index_toca_mas_tlof_index{
+    
+    @extend .tex_index;
+        color: white;
+        
+        background-color: rgba(139, 140, 141, 0.267);
+        line-height: 5;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold; 
+        &:active{
+            background-color: transparent;
+        } 
+        @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                line-height: 8;
+        }
+        }
+        @media (min-width: 992px) {
+            #collapseThree {
+            display: block;
+            }
+        }
+
+
+// fifa
+
+.index_fifa_fondo_index{
+    
+    @extend .index_fondo;
+    background-position: center;
+    background-image: url(../img/fifa_index.jpg);
+            
+        }
+        
+    
+.tex_fifa_index{
+
+    @extend .tex_index;
+        color: rgb(10, 222, 233);
+        padding: 10rem;
+        height: auto;
+        background-color: rgba(53, 103, 136, 0.5);
+        border-radius: 1rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5rem rgba(0, 0, 0, 0.041);
+        @media(max-width: 768px){
+            font-size: 2.5rem;
+            padding: 6rem;
+            -webkit-text-stroke: 0rem;
+        }
+        @media(max-width: 576px)
+        {   font-size: 2rem;
+            padding: 1rem;
+            background-color: rgba(53, 103, 136, 0.795);
+        }
+        }
+            
+.ver_mas_fifa_index{
+    @extend .ver_mas;
+    background-color: rgba(53, 103, 136, 0.5);
+    &:hover{ color: rgb(10, 222, 233);}
+    
+    @media(max-width: 576px){
+        background-color: rgba(53, 103, 136, 0.795);
+    }}
+
+.tex_index_toca_mas_fifa_index{
+    
+    @extend .tex_index;
+        color: white;
+        background-color: rgba(53, 103, 136, 0.233);
+        line-height: 5;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold; 
+        
+        &:active{
+            background-color: transparent;
+            } 
+        @media(max-width: 768px){
+        font-size: 3rem;
+        line-height: 6;}
+        @media (max-width: 576px){
+                font-size: 2rem;
+                line-height: 8;
+            }
+            }
+        @media (min-width: 992px) {
+            #collapseFour {
+            display: block;
+                }
+            }       
+        
+// Plataformas
+
+#plataformas{
+    background-image: url(../img/fondo1.jpg);
+    background-size: 100%;
+    
+}
+
+.index_cont_plataf{
+    background: linear-gradient(90deg, #102742, #4984cb);
+    margin: 2rem;
+    border-radius: 3rem;
+}
+
+.tex_plataf{
+
+    @extend .tex_index;
+    font-size: 2.5rem;
+    @media(max-width: 576px){
+        font-size: 2rem;
+    }
+}
+
+.title_plataf{
+    @extend .tex_index;
+    font-size: 3.5rem;
+    padding: 3rem;
+    color: white;
+    
+        
+    }
+
+
